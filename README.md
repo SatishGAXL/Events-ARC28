@@ -23,6 +23,10 @@ This project demonstrates how to emit and listen to events in Algorand smart con
 ## Setup
 
 1. Clone the repository
+    ```bash
+    git clone https://github.com/SatishGAXL/Events-ARC28.git
+    cd Events-ARC28
+    ```
 2. Navigate to the project directory:
    ```bash
    cd projects/Events-ARC28
