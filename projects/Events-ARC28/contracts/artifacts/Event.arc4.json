@@ -1,0 +1,91 @@
+{
+  "name": "Event",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [],
+      "returns": {
+        "type": "void"
+      },
+      "events": [
+        {
+          "name": "CalledMethodEvent",
+          "args": [
+            {
+              "name": "sender",
+              "type": "address"
+            },
+            {
+              "name": "msg",
+              "type": "string"
+            }
+          ],
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "name": "first_method",
+      "args": [],
+      "returns": {
+        "type": "void"
+      },
+      "events": [
+        {
+          "name": "CalledMethodEvent",
+          "args": [
+            {
+              "name": "sender",
+              "type": "address"
+            },
+            {
+              "name": "msg",
+              "type": "string"
+            }
+          ],
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "name": "second_method",
+      "args": [],
+      "returns": {
+        "type": "void"
+      },
+      "events": [
+        {
+          "name": "CalledMethodEvent",
+          "args": [
+            {
+              "name": "sender",
+              "type": "address"
+            },
+            {
+              "name": "msg",
+              "type": "string"
+            }
+          ],
+          "desc": ""
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "name": "CalledMethodEvent",
+      "args": [
+        {
+          "name": "sender",
+          "type": "address"
+        },
+        {
+          "name": "msg",
+          "type": "string"
+        }
+      ],
+      "desc": ""
+    }
+  ]
+}
